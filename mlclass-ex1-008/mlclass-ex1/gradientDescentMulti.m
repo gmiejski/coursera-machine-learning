@@ -23,15 +23,6 @@ for iter = 1:num_iters
     for i = 1:features
         theta(i) = theta(i) - alpha*(1/m)*sum(errors.*X(:,i));
     end
-
-
-
-
-
-
-
-
-
     % ============================================================
 
     % Save the cost J in every iteration    
